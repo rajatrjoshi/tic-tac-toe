@@ -132,9 +132,9 @@ class App extends React.Component {
           </div>
         </div>
         <div class="scores p1">
-          <p class="player1"><span class="p1">Player</span><span class="p2">Player 1</span> (<span class="x"></span>)<span class="score">{this.state.playerWin}</span></p>
+          <p class="player1"><span class="p1">You</span><span class="p2">Player 1</span><span class="score">{this.state.playerWin}</span></p>
           <p class="ties">Tie<span class="score">{this.state.tieGames}</span></p>
-          <p class="player2"><span class="p1">Computer</span><span class="p2">Player 2</span> (<span class="o"></span>)<span class="score">{this.state.computerWin}</span></p>
+          <p class="player2"><span class="p1">Computer</span><span class="p2">Player 2</span><span class="score">{this.state.computerWin}</span></p>
         </div>
       </div>
     );
